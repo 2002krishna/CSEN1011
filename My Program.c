@@ -6,7 +6,7 @@ int main()
  scanf("%f", &t);
  scanf("%f", &r);
  si=(p*t*r)/100;
- ci=p*(1+r)/100*t;
+ ci=p*(((1+r)/100)*t);
  printf("simple interest %f", si);
  printf("compound interest %f", ci);
 }
